@@ -6,9 +6,9 @@ Pour lancer l'application ouvrez le fichier index.html.
 Rendu mini projet studio-zerance
 L'application est totalement responsive  elle s'adapte à tous types d'écran grâce aux media queries.
 L'application est composée d'un header,d'une bannière,d'un slider,d'un portfolio et d'un text inifinite.
-Les menus Nos clients, Notre offre et Le studio renvoie respectivement  vers les section 3, 4 et 5. 
+Les menus : Nos clients, Notre offre et Le studio renvoie respectivement  vers les section 3, 4 et 5. 
 
-Le header est composé de l'image présente dans la maquette photoshop à savoir le long logo jaune et non le logo court qui est sur le site et d'un menu.
+Le header est composé de l'image présente dans la maquette photoshop à savoir le long logo jaune et non le logo court qui est sur le site studio zerance et d'un menu.
 J'ai placé le logo studio zerance sur la gauche et le menu à droite ce n'était pas mentionné dans les consignes mais j'ai ajouter une animation  hover comme présente sur votre site aux elements du menu lorsque qu'on passe la souris sur un de ces élements le texte devient jaune et une ligne jaune défile sous l'élement .
 Lorsque la largeur de l'écran devient trop petite les élements texte menu deviennent des icônes , par exemple la section menu 'contact' devient un logo 'courrier' la séction menu client devient un logo 'poignée de main'
 
@@ -35,5 +35,22 @@ Le text infinite est présent dans le footer de l'application est défile de man
 J'ai utilisé les animation en css pour cette section 2 animation horizontale qui défile l'une après l'autre à la même vitesse en 'linear infinite'afin de faire une sorte de 'boucle infinie'.
 
 
-//Partie responsive 
+Partie responsive 
 Comme je l'ai éxpliquer ci dessus j'ai cacher les élements texte du menu lorsque la largeur d'écran est trop petite et je les ai rempalcés par des icônes afin d'améliorer l'experience utilisateur j'ai aussi adapter  le systeme de grille selon la largeur écran.
+
+Difficultés rencontrés et amélioration possible
+Je n'ai pas rencontrer de grosse difficultés pour réaliser la maquette par contre  je n'avais jamais fait de text infinite j'ai  donc fait quelques recherches  pour apprendre comment en faire et ça c'est très bien passé.
+Axe d'amélioration :
+De plus belles icônes pour la section menu lorsque la largeur de l'écran est trop petit, et ajouter le drag pour le slider.
+
+Temps passé : La section header/bannière et le portfolio avec la grille à était fait assez rapidement le système de grille est très intéressant pour le portfolio j'ai  passer  moins d'une journée au total pour c'est 3 sections avec  l'Html et le CSS.
+Header : environ 1 heures
+Bannière : environ 1 heure
+Portfolio : environ 2 heures
+Pour la section slider
+environ : 4 heures
+pour la section text infinte : environ 4 heures
+Responsive : environ 2 heures
+Et j'ajoute à cela quelques heures de tests et d'améliorations comme le hover du header.
+Donc un total d'environ 2 jours.
+
