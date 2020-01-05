@@ -35,3 +35,5 @@ Le text infinite est présent dans le footer de l'application est défile de man
 J'ai utilisé les animation en css pour cette section 2 animation horizontale qui défile l'une après l'autre à la même vitesse en 'linear infinite'afin de faire une sorte de 'boucle infinie'.
 
 
+//Partie responsive 
+Comme je l'ai éxpliquer ci dessus j'ai cacher les élements texte du menu lorsque la largeur d'écran est trop petite et je les ai rempalcés par des icônes afin d'améliorer l'experience utilisateur j'ai aussi adapter  le systeme de grille selon la largeur écran.
