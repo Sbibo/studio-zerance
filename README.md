@@ -1,20 +1,27 @@
 # studio-zerance
 Mini projet front
+
+
 Pour télécharger l'application cliquer sur 'clone and download' et 'download zip'.
+
 Pour lancer l'application ouvrez le fichier index.html.
 
 
 Rendu mini projet studio-zerance
 
 
-L'application est totalement responsive elle s'adapte à tous types d'écran grâce aux media queries.
+L'application est totalement responsive elle s'adapte à tous types d'écran grâce aux medias queries(aucun chevauchement,image surdimensionée...)
 L'application est composée d'un header, d'une bannière, d'un slider, d'un portfolio et d'un text inifinite.
 Les menus : Nos clients, Notre offre et Le studio renvoie respectivement vers les sections 3, 4 et 5. 
 
 
 Le header est composé de l'image présente dans la maquette photoshop à savoir le long logo jaune et non le logo court qui est sur le site studio zerance et d'un menu.
-J'ai placé le logo studio zerance sur la gauche et le menu à droite ce n'était pas mentionné dans les consignes mais j'ai ajouté une animation  hover comme présente sur votre site aux éléments du menu lorsque qu'on passe la souris sur un de ces éléments le texte devient jaune et une ligne jaune défile sous l'élément .
-Lorsque la largeur de l'écran devient trop petite les éléments textes menu deviennent des icônes , par exemple la section menu 'contact' devient un logo 'courrier' la section menu client devient un logo 'poignée de main'
+J'ai placé le long logo studio zerance du fichier photoshop sur la gauche et le menu à droite ce n'était pas mentionné dans les consignes mais j'ai ajouté une animation  hover comme présente sur votre site aux éléments du menu lorsque qu'on passe la souris sur un de ces éléments le texte devient jaune et une ligne jaune défile sous l'élément (voir les classes CSS .underline-animation:hover
+et .underline-animation::after).
+
+
+Lorsque la largeur de l'écran devient trop petite les éléments textes menu deviennent des icônes , par exemple la section menu 'contact' devient un logo 'courrier' la section menu client devient un logo 'poignée de main'.Les élements icones sont dans l'Html mais ont une classe CSS display:'none' et deviennent display:'block' et inversement avec les menus textes du header selon la taille de l'écran grace aux medias queries.
+
 
 En dessous il y a la section bannière qui respecte le rendu de la maquette avec une taille et une largeur similaire et le mot 'Shopify' souligné en jaune.
 
@@ -50,7 +57,12 @@ Partie responsive
 Comme je l'ai expliqué ci-dessus j'ai caché les éléments textes du menu lorsque la largeur d'écran est trop petite et je les ai remplacés par des icônes afin d'améliorer l'expérience utilisateur j'ai aussi adapté  le système de grille selon la largeur écran.
 
 
-Difficultés rencontrées et amélioration possible
+Amélioration apportée
+
+-Hover du header avec surlignement en jaune des élements texte
+-icônes du header lorsque la largeur d'écran devient trop petite 
+
+Difficultés rencontrées et axe d'amélioration possible
 
 
 Je n'ai pas rencontré de grosse difficultés pour réaliser la maquette par contre  je n'avais jamais fait de text infinite j'ai  donc fait quelques recherches  pour apprendre comment en faire et ça c'est très bien passé.
